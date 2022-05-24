@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvipatel.patelu_finalproject.GameActivity"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="JQK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sum"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="NOTEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mode"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:id="@+id/c1"
+        app:srcCompat="@drawable/ace"
+        android:layout_marginTop="69dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:id="@+id/c3"
+        android:src="@drawable/ace"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="69dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:id="@+id/c2"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/mode"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c4"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c1"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c1" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c6"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c3"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/c3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c3" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c5"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c2"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/c2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c2" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c7"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c4"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/c4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c4" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c9"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c6"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/c6"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c6" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:id="@+id/c8"
+        android:src="@drawable/ace"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/c5"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/c5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/c5" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:id="@+id/discardImage"
+        android:src="@drawable/ace"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="80dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:id="@+id/dealPileButton"
+        android:src="@drawable/back"
+        android:layout_marginStart="144dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="80dp"
+        android:tag="dealPile" />
+
+    <TextView
+        android:text="No moves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noMoves"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        android:layout_marginBottom="80dp" />
+
+    <Button
+        android:text="New Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newGame"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="9dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/dealPileButton"
+        app:layout_constraintTop_toTopOf="@+id/dealPileButton"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        android:tag="newGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/back"
+        android:id="@+id/newGameImageButton"
+        app:layout_constraintRight_toRightOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:tag="newGameToolbarButton" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/arrow_back_red"
+        android:id="@+id/backButton"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:tag="backToolbarButton" />
+
+    <ImageButton
+        android:layout_width="29dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/light_bulb"
+        android:id="@+id/hintButton"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar"
+        app:layout_constraintRight_toRightOf="@+id/toolbar"
+        android:background="@android:color/transparent"
+        android:tag="hintToolbarButton" />
+
+</android.support.constraint.ConstraintLayout>
+

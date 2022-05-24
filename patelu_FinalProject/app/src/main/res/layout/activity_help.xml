@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvipatel.patelu_finalproject.HelpActivity"
+    android:background="@color/all_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="BACK"
+        tools:textColor="@android:color/holo_red_dark" />
+
+    <EditText
+        android:layout_width="315dp"
+        android:layout_height="419dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/helpText"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/back"
+        android:layout_marginBottom="8dp"
+        android:text="This is a game for one person using a standard 52 card deck.  Cards are dealt placed face up, one by one, in 3 rows and 3 columns. If 2 cards in the grid sum to 10, then the next card on the deck, which may be accessed by clicking on the deck of cards, may on one of cards that sums to 10, and the deck may be clicked again to to place the second card.  Note, only one card can be taken from the deck at a time.  If a Jack, Queen, and King appear, the player can place the next 3 cards on them (again, drawing one at a time). The object of the game is to place all 52 cards in the deck, if any cards are left then that is a loss.  A similar game can be played with cards totaling 11."
+        android:elevation="24dp"
+        android:gravity="top"
+        android:scrollHorizontally="false"
+        android:focusable="false" />
+
+</android.support.constraint.ConstraintLayout>

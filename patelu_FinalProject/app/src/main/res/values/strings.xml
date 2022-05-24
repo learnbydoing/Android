@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">patelu_FinalProject</string>
+    <string name="winMessage">"You win!!"</string>
+    <string name="lossMessage">"You lose!!"</string>
+    <string name="dialog_message">New Game of</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="ten">10</string>
+    <string name="eleven">10</string>
+</resources>
